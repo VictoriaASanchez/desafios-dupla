@@ -1,49 +1,203 @@
-*{
-    background-color: rgb(241, 44, 100);
-}
+*
 html {
-    font-size: 16px;
+    box-sizing: border-box;
+}
+
+body {
     font-family: Arial, Gadget, sans-serif;
+    background-color: #F62C66;
+    margin: 2rem 8rem 1rem 8rem;
 }
+
+nav {
+    background-color: #CB255F;
+    border-left: 4px solid white;
+    border-right: 4px solid white;
+}
+
 h1 {
-    background-color: rgb(202, 37, 93);
-    border-right: 4px solid;
-    border-left: 4px solid;
-    color:  rgb(255, 255, 255);
+    color: white;
     text-align: center;
-    /* font-size: 1rem; */
-}
-.fondo-main {
-    background-color: rgb(202, 37, 93);
-}
-h2, section  {
-    background-color: rgb(202, 37, 93);
-    color:  rgb(255, 255, 255);
-}
-article {
-    background-color:  rgb(250, 250, 250); 
-    text-align: center; 
+    font-size: 4rem;
+    margin: 0;
 }
 
 h2 {
-    color:  rgb(255, 255, 255);
+    color: white;
 }
+
 h3 {
-    background-color:  rgb(250, 250, 250); 
-    border-bottom: dotted;
-    color: rgb(202, 37, 93);
-    text-align: right;
+    color: #CB255F;
+    text-align: end;
+    margin: 0;
 }
-p {
-    background-color:  rgb(250, 250, 250); 
-    color: rgb(0, 0, 0);
-    text-align: left;
+
+hr {
+    border: 1px dashed #CB255F;
+    margin: 0 0 16px 0;
 }
+
+section {
+    margin-top: 2rem;
+    background-color: #CB255F;
+    border-radius: 4px;
+    padding: 16px;
+}
+
+article {
+    background-color: white;
+    border-radius: 4px;
+    padding: 20px 8px 16px 8px;
+}
+
+img {
+    width: 100%;
+}
+
+.container-a {
+    padding: 8px;
+    border-radius: 4px;
+    background-color: #2a7a21;
+}
+
 a {
-    background-color: rgb(40, 125, 33);
-    color: rgb(255, 255, 255);
     text-decoration: none;
+    color: white;
+    font-weight: bold;
 }
-footer h2 {
-    background-color: rgb(233, 96, 147);
+
+.container-a:hover {
+    background-color: #F62C66;
 }
+
+.card-mario {
+    margin-bottom: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer{
+    background-color: #e96093;
+    color: white;
+    text-align: center;
+    border-radius: 8px;
+    padding: 10px;
+    margin-top: 16px;
+    font-weight: bold;
+}
+
+
+/* juego.1 */
+
+.volver {
+    /* margin-left: 40px; */
+    padding: 8px;
+    border-radius: 4px;
+    background-color: #2a7a21;
+}
+.volver:hover {
+    background-color: #F62C66;
+}
+
+.container-carousel {
+    width: 150%;
+}
+
+.container-juego-1 {
+    display: flex;
+    /* margin-top: 32px; */
+    margin: 32px 40px 32px 40px;
+}
+
+.titulo-juego-1 {
+    font-size: 1.5rem;
+    text-align: left;
+    margin-bottom: 24px;
+}
+
+.container {
+    width: 100%;
+    margin-left: 48px;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-version {
+    display: flex;
+    margin-top: 8px;
+    padding: 8px 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.border-digital {
+    border: 2px solid #F62C66;
+    border-radius: 8px;
+}
+
+.border-fisico {
+    border: 1px solid gray;
+    border-radius: 8px;
+}
+
+button {
+    font-size: 1.5rem;
+    background-color: #2A7E21;
+    padding: 12px;
+    width: 100%;
+    color: white;
+    border: transparent;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.paragraph-color {
+    color: white;
+}
+
+/* Details */
+
+.container-details-video {
+    display: flex;
+    margin-top: 56px;
+}
+
+.container-details {
+    width: 55%;
+    margin-right: 56px;
+    text-align: justify;
+}
+
+.container-video {
+    width: 45%;
+}
+
+video {
+    width: 100%;
+}
+
+h4 {
+    color: white;
+    margin-top: 0;
+}
+
+/* Gallery */
+
+.gallery {
+    background-color: #e96093;
+}
+
+.container.gallery {
+    display: flex;
+}
+
+.img-gallery {
+    width: 450px;
+}
+
+h2 {
+    text-align: center;
+}
+
