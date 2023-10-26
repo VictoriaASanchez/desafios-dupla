@@ -96,6 +96,7 @@ footer{
     border-radius: 4px;
     background-color: #2a7a21;
 }
+
 .volver:hover {
     background-color: #F62C66;
 }
@@ -110,10 +111,24 @@ footer{
     margin: 32px 40px 32px 40px;
 }
 
+.flex-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.ver-galeria:hover {
+    color: #2A7E21;
+}
+
 .titulo-juego-1 {
     font-size: 1.5rem;
     text-align: left;
-    margin-bottom: 24px;
+}
+
+.ver-galeria {
+    color: rgb(43, 43, 43);
 }
 
 .container {
@@ -132,6 +147,10 @@ footer{
     justify-content: space-between;
 }
 
+.container-version:hover {
+    cursor: pointer;
+}
+
 .border-digital {
     border: 2px solid #F62C66;
     border-radius: 8px;
@@ -140,6 +159,10 @@ footer{
 .border-fisico {
     border: 1px solid gray;
     border-radius: 8px;
+}
+
+label, input:hover {
+    cursor: pointer;
 }
 
 button {
@@ -153,11 +176,22 @@ button {
     font-weight: bold;
 }
 
+button:hover {
+    background-color: #F62C66;
+    cursor: pointer;
+}
+
 .paragraph-color {
-    color: white;
+    color: rgba(255, 255, 255, 0.81);
 }
 
 /* Details */
+
+.title-details {
+    font-size: 1.5rem;
+    text-align: left;
+    color: white;
+}
 
 .container-details-video {
     display: flex;
@@ -186,18 +220,19 @@ h4 {
 /* Gallery */
 
 .gallery {
-    background-color: #e96093;
+    text-align: center;
+    background-color: #CB255F;
 }
 
 .container.gallery {
-    display: flex;
+    justify-content: center;
 }
 
 .img-gallery {
-    width: 450px;
+   width: 45%;
+   margin: 4px;
 }
 
 h2 {
     text-align: center;
 }
-
