@@ -1,62 +1,70 @@
 *
 html {
     box-sizing: border-box;
+    font-size: 16px;
 }
 
 body {
     font-family: Arial, Gadget, sans-serif;
-    background-color: #F62C66;
-    margin: 2rem 8rem 1rem 8rem;
+    background-color: rgb(243, 44, 100);
+    margin: 4rem 7.5% 1rem 7.5%;
+
 }
 
 nav {
-    background-color: #CB255F;
-    border-left: 4px solid white;
-    border-right: 4px solid white;
+    background-color: rgb(202, 37, 93);
+    border-left: 0.5rem solid white;
+    border-right: 0.5rem solid white;
 }
 
 h1 {
     color: white;
     text-align: center;
-    font-size: 4rem;
+    font-size: 5rem;
+    padding: 1.5rem;
     margin: 0;
 }
+
 
 h2 {
     color: white;
+    text-align: start;
+    font-size: 2.5rem;
 }
 
 h3 {
-    color: #CB255F;
+    color: rgb(202, 37, 93);
     text-align: end;
-    margin: 0;
+    font-size: 2rem;
+    margin: 1.25rem 0 0 0;
 }
 
 hr {
-    border: 1px dashed #CB255F;
-    margin: 0 0 16px 0;
+    border: 0.1rem dashed rgb(202, 37, 93);
+    margin: 0 0 1rem 0;
 }
 
 section {
-    margin-top: 2rem;
-    background-color: #CB255F;
-    border-radius: 4px;
-    padding: 16px;
+    margin-top: 3.5rem;
+    background-color: rgb(202, 37, 93);
+    border-radius: 0.5rem;
+    padding: 1.5rem;
 }
 
 article {
     background-color: white;
-    border-radius: 4px;
-    padding: 20px 8px 16px 8px;
+    border-radius: 0.5rem;
+    padding: 1.5rem 1rem 1rem 1rem;
 }
 
 img {
+    margin-top: 0.5rem;
     width: 100%;
 }
 
 .container-a {
-    padding: 8px;
-    border-radius: 4px;
+    padding: 1rem;
+    border-radius: 0.25rem;
     background-color: #2a7a21;
 }
 
@@ -64,26 +72,27 @@ a {
     text-decoration: none;
     color: white;
     font-weight: bold;
+    font-size: 1.5rem;
 }
 
 .container-a:hover {
-    background-color: #F62C66;
+    background-color: rgb(202, 37, 93);
 }
 
 .card-mario {
-    margin-bottom: 32px;
+    margin-bottom: 2rem;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 footer{
-    background-color: #e96093;
+    background-color: rgb(247, 111, 149);
     color: white;
     text-align: center;
-    border-radius: 8px;
-    padding: 10px;
-    margin-top: 16px;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin-top: 1.5rem;
     font-weight: bold;
 }
 
@@ -92,13 +101,13 @@ footer{
 
 .volver {
     /* margin-left: 40px; */
-    padding: 8px;
-    border-radius: 4px;
+    padding: 0.5rem;
+    border-radius: 0.25rem;
     background-color: #2a7a21;
 }
 
 .volver:hover {
-    background-color: #F62C66;
+    background-color: rgb(243, 44, 100);
 }
 
 .container-carousel {
@@ -108,14 +117,14 @@ footer{
 .container-juego-1 {
     display: flex;
     /* margin-top: 32px; */
-    margin: 32px 40px 32px 40px;
+    margin: 2rem 2.5rem 2rem 2.5rem;
 }
 
 .flex-title {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 24px;
+    margin-bottom: 1.5rem;
 }
 
 .ver-galeria:hover {
@@ -133,7 +142,7 @@ footer{
 
 .container {
     width: 100%;
-    margin-left: 48px;
+    margin-left: 3rem;
     flex-direction: column;
     display: flex;
     justify-content: space-between;
@@ -141,24 +150,25 @@ footer{
 
 .container-version {
     display: flex;
-    margin-top: 8px;
-    padding: 8px 20px;
+    margin-top: 0.5rem;
+    padding: 0.5rem 1.25rem;
     align-items: center;
     justify-content: space-between;
 }
 
 .container-version:hover {
     cursor: pointer;
+    border: 2px solid rgb(202, 37, 93);
 }
 
 .border-digital {
-    border: 2px solid #F62C66;
-    border-radius: 8px;
+    border: 1px solid gray;
+    border-radius: 0.5rem;
 }
 
 .border-fisico {
     border: 1px solid gray;
-    border-radius: 8px;
+    border-radius: 0.5rem;
 }
 
 label, input:hover {
@@ -168,16 +178,16 @@ label, input:hover {
 button {
     font-size: 1.5rem;
     background-color: #2A7E21;
-    padding: 12px;
+    padding: 0.75rem;
     width: 100%;
     color: white;
     border: transparent;
-    border-radius: 4px;
+    border-radius: 0.25rem;
     font-weight: bold;
 }
 
 button:hover {
-    background-color: #F62C66;
+    background-color: rgb(202, 37, 93);
     cursor: pointer;
 }
 
@@ -200,7 +210,7 @@ button:hover {
 
 .container-details {
     width: 55%;
-    margin-right: 56px;
+    margin-right: 3.5rem;
     text-align: justify;
 }
 
@@ -221,7 +231,7 @@ h4 {
 
 .gallery {
     text-align: center;
-    background-color: #CB255F;
+    background-color: rgb(202, 37, 93);
 }
 
 .container.gallery {
@@ -230,9 +240,12 @@ h4 {
 
 .img-gallery {
    width: 45%;
-   margin: 4px;
+   margin: 0.25rem;
 }
 
-h2 {
+h5 {
     text-align: center;
+    color: white;
+    font-size: 3rem;
+    margin: 1rem;
 }
