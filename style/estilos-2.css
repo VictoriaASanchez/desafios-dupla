@@ -1,3 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+body {
+    background-color: rgba(0, 0, 0, 1);
+    font-family: Poppins;
+    margin: 4rem 7.5% 1rem 7.5%;
+}
+
 .article-container {
     display: flex;
 }
+
+.card-mario {
+    width: 50%;
+}
+
+h1 {
+    color: rgba(255, 255, 255, 1);
+    font-size: 4rem;
+    font-weight: 500;
+}
+
+h2 {
+   color: rgba(255, 255, 255, 1);
+}
+
+h3 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 1)
+}
+
+img {
+    width: 100%;
+    border-radius: 2rem 2rem 0 0;
+}
+
+article {
+    border-radius: 32px;
+    border: 1px solid rgba(229, 246, 140, 1);
+    margin-right: 2rem;
+    position: relative;
+    left: 2rem;
+}
+
+.width-article {
+    border-radius: 32px;
+    padding-bottom: 3rem;
+    background-color: rgba(36, 36, 36, 1);
+   /*  backdrop-filter: blur(px); */
+    position: relative;
+    left: -25px;
+}
+
+.margin-article-2 {
+    margin-right: 0;
+    margin-left: 2rem;
+}
+
+hr {
+    display: none;
+}
+
+p {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.margin-paragraph {
+    margin: 3rem;
+    color: #949494;
+}
+
+a {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.container-a {
+    text-align: center;
+    padding: 1.5rem;
+    margin: 0 3rem 0 3rem;
+    background-color: #E5F68C;
+    border-radius: 0.5rem;
+}
+
+.container-a:hover {
+    background-color: black;
+    border: 2px solid #E5F68C;
+}
+
+a:hover {
+    color: white;
+    box-sizing: border-box;
+}
+
+/* .order-1 {
+    order: 2;
+}
+
+.order-2 {
+    order: 1;
+} */
