@@ -6,7 +6,7 @@ html {
 }
 
 body {
-    background-color: rgba(0, 0, 0, 1);
+    background-image: linear-gradient(to bottom right, #001429, #001a68, #60003b, rgb(0, 12, 55));
     font-family: Poppins;
     margin: 4rem 7.5% 1rem 7.5%;
 }
@@ -25,10 +25,17 @@ h1 {
     color: rgba(255, 255, 255, 1);
     font-size: 4rem;
     font-weight: 500;
+    border-radius: 32px;
+    border: 1px solid rgba(229, 246, 140, 1);
+    width: max-content;
+    padding: 0.5rem;
+    margin: 0;
 }
 
 h2 {
-   color: rgba(255, 255, 255, 1);
+    color: rgba(255, 255, 255, 1);
+    margin-bottom: 2rem;
+    text-align: center;
 }
 
 h3 {
@@ -84,14 +91,15 @@ a {
     color: black;
     text-transform: uppercase;
     text-decoration: none;
+    font-size: 1.75rem;
 }
 
 .container-a {
     text-align: center;
-    padding: 1.5rem;
     margin: 0 3rem 0 3rem;
     background-color: #E5F68C;
     border-radius: 0.5rem;
+    padding: 1.5rem;
 }
 
 .container-a:hover {
