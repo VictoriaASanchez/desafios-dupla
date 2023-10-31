@@ -204,13 +204,14 @@ button:hover {
 
 .container-details-video {
     display: flex;
+    flex-flow: wrap;
     margin-top: 56px;
 }
 
 .container-details {
     margin-right: 3.5rem;
     text-align: justify;
-    width: 55%;
+    width: 50%;
 }
 
 .container-video {
