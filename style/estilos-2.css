@@ -31,6 +31,7 @@ h1 {
     padding: 0.25rem;
     margin: 0;
     text-align: end;
+    box-shadow: 0.25rem 0.25rem 1.5rem inset silver;
 }
 
 h2 {
@@ -63,6 +64,7 @@ article {
     margin-right: 2rem;
     position: relative;
     left: 2rem;
+    box-shadow: 0.25rem 0.25rem 1.5rem inset silver;
 }
 
 .width-article {
@@ -106,12 +108,14 @@ a {
     text-align: center;
     margin: 0 3rem 0 3rem;
     background-color: #E5F68C;
+    box-shadow: 0.25rem 0.25rem 1.5rem violet;
     border-radius: 0.5rem;
     padding: 1.5rem;
 }
 
 .container-a:hover {
     background-color: black;
+    box-shadow: 0.25rem 0.25rem 1.5rem silver;
     border: 2px solid #E5F68C;
 }
 
