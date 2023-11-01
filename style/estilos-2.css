@@ -27,16 +27,24 @@ h1 {
     font-weight: 500;
     border-radius: 32px;
     border: 1px solid rgba(229, 246, 140, 1);
-    width: max-content;
-    padding: 0.5rem;
+    width: 95%;
+    padding: 0.25rem;
     margin: 0;
+    text-align: end;
 }
 
 h2 {
-    color: rgba(255, 255, 255, 1);
+    /* color: rgba(255, 255, 255, 1); */
     margin-bottom: 2rem;
     text-align: center;
 }
+.multicolortext {
+    background-image: linear-gradient(to left, rgb(159, 0, 159), rgb(113, 89, 131), rgb(90, 165, 90), rgb(132, 132, 188), yellow, orange, rgb(165, 0, 0));
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
 
 h3 {
     font-size: 2rem;
