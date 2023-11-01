@@ -131,3 +131,12 @@ a:hover {
 .order-2 {
     order: 1;
 } */
+
+footer{
+    color: white;
+    border-radius: 32px;
+    border-top: 1px solid rgba(229, 246, 140, 1);
+    margin-top: 3rem;
+    padding: 1rem;
+    text-align: center;
+}
