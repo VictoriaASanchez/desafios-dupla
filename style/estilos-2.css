@@ -54,7 +54,8 @@ nav h1 {
 h3 {
     font-size: 2rem;
     font-weight: 700;
-    color: rgba(255, 255, 255, 1)
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
 }
 
 img {
@@ -78,6 +79,8 @@ article {
     backdrop-filter: blur(200px);
     position: relative;
     left: -25px;
+    display: flex; 
+    flex-direction: column;
 }
 
 .margin-article-2 {
@@ -129,13 +132,9 @@ a:hover {
     box-sizing: border-box;
 }
 
-/* .order-1 {
+.order-1 {
     order: 2;
 }
-
-.order-2 {
-    order: 1;
-} */
 
 footer{
     color: white;
