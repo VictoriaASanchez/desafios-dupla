@@ -260,6 +260,7 @@ h5 {
     text-align: center;
 }
 
+
 @media screen and (max-width: 1200px) {
     .container-details-video {
       flex-direction: column;
@@ -306,4 +307,4 @@ h5 {
     button {
         margin-top: 2rem;
     }
-}
+} 
