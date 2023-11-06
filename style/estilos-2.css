@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
+@media screen and (max-width: 1000px) {
+    .article-container article {
+      width: calc(100% - 40px);
+    }
+    article {
+        margin-bottom: 6rem;
+    }
+  }
+
 html {
     box-sizing: border-box;
     font-size: 16px;
@@ -175,3 +184,9 @@ footer{
     margin-top: 10rem;
     padding: 1rem;
 }
+
+@media screen and (max-width: 1200px) {
+    footer {
+        margin-top: 3rem;
+    }
+  }
